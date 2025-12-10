@@ -3,7 +3,7 @@
 #' @description adsl modified from pharmaverseadam
 #' @source data from pharmaverseadam.
 #'
-#' @format A data frame with 306 rows and 106 variables:
+#' @format A data frame with 306 rows and 108 variables:
 #' \describe{
 #'  \item{STUDYID}{Study Identifier}
 #'  \item{USUBJID}{Unique Subject Identifier}
@@ -41,15 +41,15 @@
 #'  \item{SCRFDT}{Screen Failure Date}
 #'  \item{EOSDT}{End of Study Date}
 #'  \item{EOSSTT}{End of Study Status}
-#'  \item{FRVDT}{Final Retrievel Visit Date}
+#'  \item{FRVDT}{Final Retrieval Visit Date}
 #'  \item{RANDDT}{Date of Randomization}
 #'  \item{DTHDT}{Date of Death}
 #'  \item{DTHDTF}{Date of Death Imputation Flag}
 #'  \item{DTHADY}{Relative Day of Death}
 #'  \item{LDDTHELD}{Elapsed Days from Last Dose to Death}
-#'  \item{DTHCAUS}{DTHCAUS}
-#'  \item{DTHDOM}{DTHDOM}
-#'  \item{DTHCGR1}{DTHCGR1}
+#'  \item{DTHCAUS}{Cause of Death}
+#'  \item{DTHDOM}{Domain for Date of Death Collection}
+#'  \item{DTHCGR1}{Cause of Death Reason 1}
 #'  \item{LSTALVDT}{Date Last Known Alive}
 #'  \item{SAFFL}{Safety Population Flag}
 #'  \item{RACEGR1}{Pooled Race Group 1}
@@ -103,7 +103,7 @@
 #'  \item{DTHTRTFL}{Death on Treatment Flag}
 #'  \item{DTHCAUSP}{Cause Spec for Death}
 #'  \item{DTHAFTFL}{Death After 30 Days of Last Treatment}
-#'  \item{DTH60TFL}{Death Within 60 Days of First Treatment}
+#'  \item{DTHB60FL}{Death Within 60 Days of First Treatment}
 #'  \item{UNBLNDDY}{Study Day of Unblinding}
 #'  \item{UNBREAS}{Reason For Unblinding}
 #'  \item{LDOSE}{Last Dose}
@@ -111,10 +111,12 @@
 #'  \item{DTHTERM}{Reported Cause of Death}
 #'  \item{LDSTODTH}{Days from Last Dose to Death}
 #'  \item{DTHDY}{Study Day of Death}
+#'  \item{PKFL}{Pharmacokinetic Population Flag}
+#'  \item{DIABETFL}{History of Diabetes}
 #' }
-#' @seealso \code{\link{adae}} \code{\link{adaefmq}} \code{\link{adcm}} \code{\link{adeg}} \code{\link{adex}} \code{\link{adexsum}} \code{\link{adlb}} \code{\link{adsl}} \code{\link{adttesaf}} \code{\link{advs}}# nolint
+#' @seealso \code{\link{adae}} \code{\link{adaeocmq}} \code{\link{adagocmq}} \code{\link{adcm}} \code{\link{adeg}} \code{\link{adex}} \code{\link{adexsum}} \code{\link{adlb}} \code{\link{adpc}} \code{\link{adsl}} \code{\link{adttesaf}} \code{\link{advs}}# nolint
 #' @keywords datasets adsl
 #' @name adsl
 #' @examples
-#'  head(data("adsl"))
+#' head(data("adsl"))
 "adsl"

@@ -1,10 +1,9 @@
-#' @title adaefmq
+#' @title adaeocmq
 #'
-#' @description adae modified from pharmaverseadam to include FDA Medical Query information
-#' @source data from adae from pharmaverseadam and,
-#'              FDA_FMW_Consolidated_List.rds and FDA_FMQ_References.rds
+#' @description adae modified from pharmaverseadam to include Office of New Drugs (OND) Custom Medical Queries
+#' @source data from adae from pharmaverseadam and, FDA_OCMQ_Consolidated_List.rds and FDA_OCMQ_References.rds
 #'
-#' @format A data frame with 1979 rows and 81 variables:
+#' @format A data frame with 1972 rows and 86 variables:
 #' \describe{
 #'  \item{DOMAIN}{Domain Abbreviation}
 #'  \item{USUBJID}{Unique Subject Identifier}
@@ -53,6 +52,8 @@
 #'  \item{ADURN}{Analysis Duration (N)}
 #'  \item{ADURU}{Analysis Duration Units}
 #'  \item{LDOSEDTM}{End Date/Time of Last Dose}
+#'  \item{DOSEON}{Treatment Dose at Record Start}
+#'  \item{DOSEU}{Treatment Dose Units}
 #'  \item{ASEV}{Analysis Severity/Intensity}
 #'  \item{AREL}{Analysis Causality}
 #'  \item{TRTEMFL}{Treatment Emergent Analysis Flag}
@@ -62,19 +63,17 @@
 #'  \item{AETOXGRN}{Standard Toxicity Grade (N)}
 #'  \item{AEACN_DECODE}{Action Taken with Study Treatment}
 #'  \item{DOSEDY}{Day of Study Drug}
-#'  \item{DOSEU}{Treatment Dose Units}
-#'  \item{DOSEON}{Treatment Dose at Record Start}
 #'  \item{AECONTRT}{Concomitant or Additional Trtmnt Given}
 #'  \item{CQ01NAM}{Customized Query 01 Name}
 #'  \item{CQ02NAM}{Customized Query 02 Name}
 #'  \item{CQ03NAM}{Customized Query 03 Name}
 #'  \item{AESMIE}{Other Medically Important Serious Event}
-#'  \item{ACAT1}{Analysis Category 1}
 #'  \item{AESER_DECODE}{Serious Event}
 #'  \item{AEREL_DECODE}{Causality}
 #'  \item{AEOUT_DECODE}{Outcome of Adverse Event}
-#'  \item{AOCCFL}{1st Occurance within Subject Flag}
-#'  \item{AOCCPFL}{1st Occurance within Preferred Term Flag}
+#'  \item{ACAT1}{Analysis Category 1}
+#'  \item{AOCCFL}{1st Occurrence within Subject Flag}
+#'  \item{AOCCPFL}{1st Occurrence within Preferred Term Flag}
 #'  \item{AOCCSFL}{1st Occurrence of SOC Flag}
 #'  \item{TRT01A}{Actual Treatment for Period 01}
 #'  \item{SAFFL}{Safety Population Flag}
@@ -84,13 +83,18 @@
 #'  \item{RACE_DECODE}{Race}
 #'  \item{STUDYID}{Study Identifier}
 #'  \item{AGEGR1}{Pooled Age Group 1}
-#'  \item{FMQNAM}{FMQNAM}
-#'  \item{FMQSOC}{FMQSOC}
-#'  \item{FMQCLASS}{FMQCLASS}
+#'  \item{TRTEDY}{Treatment Relative End Day}
+#'  \item{TRT01P}{Planned Treatment for Period 01}
+#'  \item{TRDISCFL}{Treatment Discontinued Flag}
+#'  \item{OCMQNAM}{Custom Medical Query Name}
+#'  \item{OCMQSOC}{Custom Medical Query System Organ Class}
+#'  \item{OCMQCLSS}{Custom Medical Query Scope}
+#'  \item{GENSPMFL}{Gender Specific OCMQ Male Flag}
+#'  \item{GENSPFFL}{Gender Specific OCMQ Female Flag}
 #' }
-#' @seealso \code{\link{adae}} \code{\link{adaefmq}} \code{\link{adcm}} \code{\link{adeg}} \code{\link{adex}} \code{\link{adexsum}} \code{\link{adlb}} \code{\link{adsl}} \code{\link{adttesaf}} \code{\link{advs}}# nolint
-#' @keywords datasets adaefmq
-#' @name adaefmq
+#' @seealso \code{\link{adae}} \code{\link{adaeocmq}} \code{\link{adagocmq}} \code{\link{adcm}} \code{\link{adeg}} \code{\link{adex}} \code{\link{adexsum}} \code{\link{adlb}} \code{\link{adpc}} \code{\link{adsl}} \code{\link{adttesaf}} \code{\link{advs}}# nolint
+#' @keywords datasets adaeocmq
+#' @name adaeocmq
 #' @examples
-#'  head(data("adaefmq"))
-"adaefmq"
+#' head(data("adaeocmq"))
+"adaeocmq"

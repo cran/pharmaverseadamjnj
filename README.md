@@ -1,6 +1,21 @@
 # pharmaverseadamjnj
 
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Check 🛠](https://github.com/johnsonandjohnson/pharmaverseadamjnj/actions/workflows/inspect.yaml/badge.svg)](https://github.com/johnsonandjohnson/pharmaversesdtmjnj/actions/workflows/inspect.yaml)
+[![Docs 📚](https://github.com/johnsonandjohnson/pharmaverseadamjnj/actions/workflows/pkgdown.yaml/badge.svg)](https://johnsonandjohnson.github.io/pharmaverseadamjnj/)
+<!-- [![Code Coverage 📔](https://raw.githubusercontent.com/johnsonandjohnson/pharmaverseadamjnj/_xml_coverage_reports/data/main/badge.svg)](https://johnsonandjohnson.github.io/pharmaverseadamjnj//main/coverage-report/)-->
+
+![GitHub forks](https://img.shields.io/github/forks/johnsonandjohnson/pharmaverseadamjnj?style=social)
+![GitHub repo stars](https://img.shields.io/github/stars/johnsonandjohnson/pharmaverseadamjnj?style=social)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/johnsonandjohnson/pharmaverseadamjnj)
+![GitHub contributors](https://img.shields.io/github/contributors/johnsonandjohnson/pharmaverseadamjnj)
+![GitHub last commit](https://img.shields.io/github/last-commit/johnsonandjohnson/pharmaverseadamjnj)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/johnsonandjohnson/pharmaverseadamjnj)
+![GitHub repo size](https://img.shields.io/github/repo-size/johnsonandjohnson/pharmaverseadamjnj)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Current Version](https://img.shields.io/github/r-package/v/johnsonandjohnson/pharmaverseadamjnj/main?color=purple&label=package%20version)](https://github.com/johnsonandjohnson/pharmaverseadamjnj/tree/main)
+[![Open Issues](https://img.shields.io/github/issues-raw/johnsonandjohnson/pharmaverseadamjnj?color=red&label=open%20issues)](https://github.com/johnsonandjohnson/pharmaverseadamjnj/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+<!-- end badges -->
 
 Generate ADaM datasets aligned with Johnson & Johnson's Clinical and Statistical Programming standards.
 
@@ -8,13 +23,12 @@ Generate ADaM datasets aligned with Johnson & Johnson's Clinical and Statistical
 ## Features
 
 - Generates ADaM datasets that comply with J&J standards
-- Built on top of the `pharmaverseadam` package
+- Built on top of the 'pharmaverseadam' package
 - Implements data conversion from pharmaverse format to J&J standards format
 - Provides reproducible and consistent test data
 
 ## Implemented Datasets
 
-Currently supports the following ADaM domains:
 - ADSL (Subject Level Analysis Dataset)
 - ADAE (Adverse Events Analysis Dataset)
 - ADCM (Concomitant Medications Analysis Dataset)
@@ -24,15 +38,17 @@ Currently supports the following ADaM domains:
 - ADLB (Laboratory Test Results Analysis Dataset)
 - ADVS (Vital Signs Analysis Dataset)
 - ADTTESAF (Time-to-Event Safety Analysis Dataset)
-- ADAEFMQ (Adverse Events Analysis Dataset FDA Medical Query)
+- ADAEOCMQ (Adverse Events Analysis Dataset OC Medical Query)
+- ADAGOCMQ (Adverse Events Analysis Dataset OC Medical Query Grouped)
+- ADPC (Pharmacokinetic Analysis Dataset)
 
 ## Installation
 
 You can install the development version from GitHub:
 
 ```r
-# install.packages("devtools")
-devtools::install_github("johnsonandjohnson/pharmaverseadamjnj")
+install.packages("pharmaverseadamjnj") #CRAN Release
+#devtools::install_github("johnsonandjohnson/pharmaverseadamjnj", ref = "dev") #or for the rolling dev release
 ```
 
 ## Usage
