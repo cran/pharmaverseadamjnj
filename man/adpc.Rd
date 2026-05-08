@@ -135,8 +135,8 @@ A data frame with 4479 rows and 130 variables:
 \item{WTBLU}{Standard Units}
 \item{BMIBL}{Baseline Body Mass Index (kg/m2)}
 \item{BMIBLU}{BMI at Baseline (Unit)}
-\item{CRIT1}{Lowest Quantification Level Criterion}
-\item{CRIT1FL}{Lowest Quantification Level Flag}
+\item{CRIT1}{Concentrations Below the Lowest Quantification Level Criterion}
+\item{CRIT1FL}{Concentrations Below the Lowest Quantification Level Flag}
 }
 }
 \source{

@@ -1,31 +1,10 @@
-# pharmaverseadamjnj 0.0.4
-
-### Added
-- Added vars to ADSL: LASTCTDT, UNBLNDDT, IMFL, SAFEXRS, FASEXRS, PPREXRS, PKEXRES, and IMEXRES
-- Added restord labels to xpt
-- Change ONTRFl for ADVS to first dose within 30 days
-- Added STRAT1D, STRAT2D to ADSL
-- Added ABODSYS1, ABODSYS2, ADECOD1, and ADECOD2 to ADEX
-- Added CRITx (1-8) to ADVS
-- Added VSCLSIG and RACE to ADVS
-- Added AOCTIFL, AESCAT, SMQzzNAM, and CQzzNAM to ADAE
-- Added derived variables `AESHOSPP` and `AESHOSPR`
-
-
-### Changed
-- Removed *_DECODE vars in ADSL, ADLB, ADVS, ADAE, ADCM, ADEG, ADEX
-- Releveled TRT01P and TRT01A (now Xanomeline Low Dose -> Xanomeline High Dose -> Placebo)
-- Modified "General disorders and administration site conditions" to "Gastrointestinal disorders" in ADEX
-- Modified ADVS on ORTHYP, ORTHYPS and  ORTHYPD parameters for TSFVIT04
-
-## [0.0.3] - 2026-01-27
+# pharmaverseadamjnj 0.0.5
 
 ### Added
 - Add DCTADY to ADSL #32
 - Add new addili dataset
 - Add LBNAM variable to adlb 
 - Add REGION1 = "North America"
-
 
 ## [0.0.2] - 2025-12-03
 
@@ -63,6 +42,3 @@
 - ADVS (Vital Signs Analysis Dataset)
 - ADTTESAF (Time-to-Event Safety Analysis Dataset)
 - ADAEFMQ (Adverse Events Analysis Dataset FDA Medical Query)
-
-
-
