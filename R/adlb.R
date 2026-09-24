@@ -3,7 +3,7 @@
 #' @description adlb modified from pharmaverseadam
 #' @source data from pharmaverseadam.
 #'
-#' @format A data frame with 83640 rows and 156 variables:
+#' @format A data frame with 83640 rows and 153 variables:
 #' \describe{
 #'  \item{STUDYID}{Study Identifier}
 #'  \item{USUBJID}{Unique Subject Identifier}
@@ -124,9 +124,6 @@
 #'  \item{AVALU}{Analysis Value - Units}
 #'  \item{ANL02FL}{Analysis Record Flag 02-Analysis Value}
 #'  \item{TRTEMFL}{Treatment Emergent Analysis Flag}
-#'  \item{COUNTRY_DECODE}{Country}
-#'  \item{RACE_DECODE}{Race Description}
-#'  \item{ETHNIC_DECODE}{Ethnicity Description}
 #'  \item{PARCAT2}{Parameter Category 2}
 #'  \item{PARCAT3}{Parameter Category 3}
 #'  \item{PARCAT4}{Parameter Category 4}
@@ -166,5 +163,5 @@
 #' @keywords datasets adlb
 #' @name adlb
 #' @examples
-#' head(data("adlb"))
+#'  head(data("adlb"))
 "adlb"

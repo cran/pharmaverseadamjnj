@@ -1,6 +1,6 @@
 Package: pharmaverseadamjnj
 Title: J&J Innovative Medicine ADaM Test Data
-Version: 0.0.5
+Version: 0.0.6
 Authors@R: 
     c(
       person(given = "David",
@@ -19,6 +19,7 @@ Authors@R:
            family = "Divakaran", ,
            role = "ctb",
            email = "mdivaka2@its.jnj.com"),
+      person("Renfei", "Mao", , "rmao6@its.jnj.com", role = c("ctb")),
       person(given = "J&J Innovative Medicine",
             role = c("cph", "fnd"))
     )
@@ -28,16 +29,18 @@ Description: A set of Analysis Data Model (ADaM) datasets constructed by
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.3
+LazyDataCompression: xz
 Language: en-US
-Depends: R (>= 3.5), pharmaverseadam (>= 1.2.0)
+Depends: R (>= 3.5), pharmaverseadam (>= 1.3.0)
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2026-05-08 15:38:18 UTC; DTord
+Packaged: 2026-09-24 14:43:56 UTC; dtord
 Author: David Munoz Tord [aut, cre],
   Nicholas Masel [aut],
   Joe Kovach [aut],
   Mahesh Divakaran [ctb],
+  Renfei Mao [ctb],
   J&J Innovative Medicine [cph, fnd]
 Maintainer: David Munoz Tord <david.munoztord@mailbox.org>
 Repository: CRAN
-Date/Publication: 2026-05-08 16:40:09 UTC
+Date/Publication: 2026-09-24 15:20:02 UTC

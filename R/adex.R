@@ -3,7 +3,7 @@
 #' @description adex modified from pharmaverseadam
 #' @source data from pharmaverseadam.
 #'
-#' @format A data frame with 591 rows and 128 variables:
+#' @format A data frame with 591 rows and 130 variables:
 #' \describe{
 #'  \item{STUDYID}{Study Identifier}
 #'  \item{USUBJID}{Unique Subject Identifier}
@@ -106,13 +106,12 @@
 #'  \item{AVISIT}{Visit Label}
 #'  \item{TRT01AN}{Actual Treatment for Period 01 (N)}
 #'  \item{AOCCUR}{Analysis Occurrence}
-#'  \item{RACE_DECODE}{Race}
 #'  \item{ACAT1}{Analysis Category 1}
 #'  \item{AREASOC}{Analysis Reason for Occur Value}
 #'  \item{AREASOO}{Other Analysis Reason for Occur Value}
 #'  \item{AADJ}{Analysis Reason for Dose Adjustment}
 #'  \item{AADJPOTH}{Other Anal Reason for Dose Adjust Prior}
-#'  \item{AADJP}{Analysis Reason for Dose Adjustment Prior}
+#'  \item{AADJP}{Analysis Reason for Prior Dose Adjust}
 #'  \item{AACTDU}{Analysis Action Taken During Study Trt}
 #'  \item{AACTDU1}{Act Takn Dur Infus-Full Dose Admined}
 #'  \item{AACTDU2}{Act Takn Dur Infus-Infusion Aborted}
@@ -122,7 +121,6 @@
 #'  \item{AADJOTH}{Other Anal Reason for Dose Adjustment}
 #'  \item{ACAT2}{Analysis Category 2}
 #'  \item{AACTPR}{Action Taken Prior to Infusion Start}
-#'  \item{AACTPR_DECODE}{Action Taken Prior to Infusion Start}
 #'  \item{ASCHDOSE}{Analysis Scheduled Dose}
 #'  \item{ASCHDOSU}{Analysis Scheduled Dose Units}
 #'  \item{ADOSFRM}{Analysis Dose Form}
@@ -133,10 +131,14 @@
 #'  \item{ATVINFU}{Analysis Total Volume Infused Units}
 #'  \item{AINFRAT}{Analysis Infusion Rate}
 #'  \item{AINFRAU}{Analysis Infusion Rate Unit}
+#'  \item{ABODSYS1}{AE SOC Driving Study Drug Action (1)}
+#'  \item{ABODSYS2}{AE SOC Driving Study Drug Action (2)}
+#'  \item{ADECOD1}{AE PT Driving Study Drug Action (1)}
+#'  \item{ADECOD2}{AE PT Driving Study Drug Action (2)}
 #' }
 #' @seealso \code{\link{adae}} \code{\link{adaeocmq}} \code{\link{adagocmq}} \code{\link{adcm}} \code{\link{addili}} \code{\link{adeg}} \code{\link{adex}} \code{\link{adexsum}} \code{\link{adlb}} \code{\link{adpc}} \code{\link{adsl}} \code{\link{adttesaf}} \code{\link{advs}}# nolint
 #' @keywords datasets adex
 #' @name adex
 #' @examples
-#' head(data("adex"))
+#'  head(data("adex"))
 "adex"
